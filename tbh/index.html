@@ -8,25 +8,118 @@
 
   <header>
     <h1>
-      <img src="img/logo.jpg" alt="ロゴ">
+      <img src="img/logo.jpg" alt="TokyoBaySideHotel">
     </h1>
+      <ul>
+        <li><a href="#">English</a></li>
+        <li><a href="#">サイトマップ</a></li>
+        <li><a href="#">よくあるご質問</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
   </header>
 
   <nav>
     <ul>
       <li><a href="＃">こだわり<span>Feature</span></a></li>
-      <li><a href="＃">ご宿泊<span>Stay</span></a></li>
+      <li><a href="twinroom.html">ご宿泊<span>Stay</span></a></li>
       <li><a href="＃">レストラン<span>Restaurant</span></a></li>
       <li><a href="＃">ウエディング<span>Wedding</span></a></li>
       <li><a href="＃">ギャラリー<span>Gallery</span></a></li>
       <li><a href="＃">アクセス<span>Access</span></a></li>
     </ul>
   </nav>
+<!-- ナビゲーション -->
 
   <div>
-    <img src="img/mainVisual.jpg" alt="main visual">
+      <img src="img/mainVisual.jpg" alt="main visual">
   </div>
   <!-- main visual -->
+
+<form action="reserveform.php" method="post">
+  <h2>宿泊予約<span>reservation</span></h2>
+  <dl>
+    <dt>宿泊日</dt>
+    <dd>
+      <select name="yearmonth" id="yearmonth">
+        <option value="201404">2015年4月</option>
+        <option value="201405">2015年5月</option>
+        <option value="201406">2015年6月</option>
+        <option value="201407">2015年7月</option>
+        <option value="201408">2015年8月</option>
+        <option value="201409">2015年9月</option>
+      </select>
+    </dd>
+
+    <dd>
+      <select name="day" id="day">
+        <option value="01">1日</option>
+        <option value="02">2日</option>
+        <option value="03">3日</option>
+        <option value="04">4日</option>
+        <option value="05">5日</option>
+        <option value="06">6日</option>
+        <option value="07">7日</option>
+        <option value="08">8日</option>
+        <option value="09">9日</option>
+        <option value="10">10日</option>
+        <option value="11">11日</option>
+        <option value="12">12日</option>
+        <option value="13">13日</option>
+        <option value="14">14日</option>
+        <option value="15">15日</option>
+        <option value="16">16日</option>
+        <option value="17">17日</option>
+        <option value="18">18日</option>
+        <option value="19">19日</option>
+        <option value="20">20日</option>
+        <option value="21">21日</option>
+        <option value="22">22日</option>
+        <option value="23">23日</option>
+        <option value="24">24日</option>
+        <option value="25">25日</option>
+        <option value="26">26日</option>
+        <option value="27">27日</option>
+        <option value="28">28日</option>
+        <option value="29">29日</option>
+        <option value="30">30日</option>
+        <option value="31">31日</option>
+      </select>
+    </dd>
+
+    <dt>泊・人・部屋数</dt>
+    <dd>
+      <select name="nights" id="nights">
+        <option value="01">1泊</option>
+        <option value="02">2泊</option>
+        <option value="03">3泊</option>
+        <option value="04">4泊</option>
+        <option value="05">5泊</option>
+        <option value="06">6泊</option>
+        <option value="07">7泊</option>
+      </select>
+    </dd>
+    <dd>
+      <select name="people" id="people">
+        <option value="01">1人</option>
+        <option value="02">2人</option>
+        <option value="03">3人</option>
+        <option value="04">4人</option>
+        <option value="05">5人</option>
+      </select>
+    </dd>
+    <dd>
+      <select name="rooms" id="rooms">
+        <option value="01">1部屋</option>
+        <option value="02">2部屋</option>
+        <option value="03">3部屋</option>
+        <option value="04">4部屋</option>
+        <option value="05">5部屋</option>
+      </select>
+    </dd>
+  </dl>
+  <input type="submit" value="検索">
+  <input type="submit" value="予約確認・変更・取消">
+</form>
 
   <!-- 宿泊予約 -->
 
@@ -35,123 +128,156 @@
   </div>
   <!-- 朝食特集 -->
 
-  <div>
+  <section>
     <h2>人気プラン<span>Recommended Plan</span></h2>
-
+    <p><a href="#"><img src="img/planList.png" alt="プラン一覧"></a></p>
     <ul>
-      <li><a href="#"><img src="img/plan01.jpg" alt="記念日プラン"></a>記念日プラン</li>
-      <li><a href="#"><img src="img/plan02.jpg" alt="女子旅プラン"></a>女子旅プラン</li>
-      <li><a href="#"><img src="img/plan03.jpg" alt="早得プラン"></a>早得プラン</li>
-      <li><a href="#"><img src="img/plan04.jpg" alt="ビジネスプラン"></a>ビジネスプラン/<li>
-      <li><a href="#"><img src="img/plan05.jpg" alt="ファミリープラン"></a>ファミリープラン</li>
+      <li><a href="#"><img src="img/plan01.jpg" alt="記念日プラン"></a></li>
+      <li><a href="#"><img src="img/plan02.jpg" alt="女子旅プラン"></a></li>
+      <li><a href="#"><img src="img/plan03.jpg" alt="早得プラン"></a></li>
+      <li><a href="#"><img src="img/plan04.jpg" alt="ビジネスプラン"></a><li>
+      <li><a href="#"><img src="img/plan05.jpg" alt="ファミリープラン"></a></li>
     </ul>
+  </section>
 
-  </div>
-
-  <div>
+  <section>
     <h2>新着情報<span>Pick up</span></h2>
+    <p><a href="#"><img src="img/pickupList.png" alt="新着一覧"></a></p>
     <ul>
       <li>
-        <img src="img/pickup01.jpg" alt="トリップアドバイザー">
-        <h4>初入賞！トリップアドバイザー<br>
-          「朝食の美味しいホテルランキング2015」</h4>
-        <p>トリップアドバイザー「行ってよかった！朝食のおいしいホテルランキング2015」にて18位を獲得することができました！...</p>
+        <a href="#"><img src="img/pickup01.png" alt="トリップアドバイザー"></a>
+        <a href="#">
+          <div>
+            <h4>初入賞！トリップアドバイザー<br>
+              「朝食の美味しいホテルランキング2015」</h4>
+            <p>トリップアドバイザー「行ってよかった！朝食のおいしいホテルランキング2015」にて18位を獲得することができました！...</p>
+          </div>
+        </a>
+        <a href="#">レストラン</a>
       </li>
       <li>
-        <img src="img/pickup02.jpg" alt="オススメランチ">
-        <h4>【５月】<br>
-          オススメランチのご案内</h4>
-        <p>東京ベイサイドホテルのレストランから自慢のランチが大集合！和・洋・中からお客様のお好みに合わせて、お選びいただけます。...</p>
+        <a href="#"><img src="img/pickup02.jpg" alt="オススメランチ"></a>
+        <a href="#"><div>
+            <h4>【5月】<br>
+              オススメランチのご案内</h4>
+            <p>東京ベイサイドホテルのレストランから自慢のランチが大集合！和・洋・中からお客様のお好みに合わせて、お選びいただけます。...</p>
+          </div>
+        </a>
+        <a href="#">レストラン</a>
       </li>
       <li>
-        <img src="img/pickup03.jpg" alt="母の日ケーキ">
-        <h4>初東京ベイサイドホテルのレストランから自慢のランチが大集合！<br>
-          和・洋・中からお客様のお好みに合わせて、お選びいただけます。...</h4>
-        <p>ト母の日の贈り物の定番、「カーネーション」の花のようにチョコレートをあしらい、イチゴのクリームで仕上げた特別なガトーフレーズを...</p>
+        <a href="#"><img src="img/pickup03.jpg" alt="母の日ケーキ"></a>
+        <a href="#"><div>
+            <h4>初東京ベイサイドホテルのレストランから自慢のランチが大集合！<br>
+              和・洋・中からお客様のお好みに合わせて、お選びいただけます。...</h4>
+            <p>母の日の贈り物の定番、「カーネーション」の花のようにチョコレートをあしらい、イチゴのクリームで仕上げた特別なガトーフレーズを...</p>
+          </div>
+        </a>
+        <a href="#">レストラン</a>
       </li>
       <li>
-        <img src="img/pickup04.jpg" alt="GW期間サービス">
-        <h4>ご家族やご友人との集まりに。
-          <br>ゴールデンウィーク期間サービスのご案内</h4>
-        <p>ご家族やご友人などが集まるゴールデンウィーク。東京ベイサイドホテルで素敵な休日はいかがですか？ゴールデンウィーク特別サービスを...</p>
+        <a href="#"><img src="img/pickup04.jpg" alt="GW期間サービス"></a>
+        <a href="#"><div>
+            <h4>ご家族やご友人との集まりに。
+              <br>ゴールデンウィーク期間サービスのご案内</h4>
+            <p>ご家族やご友人などが集まるゴールデンウィーク。東京ベイサイドホテルで素敵な休日はいかがですか？ゴールデンウィーク特別サービスを...</p>
+          </div></a>
+        <a href="#">ご宿泊</a>
       </li>
     </ul>
-  </div>
+  </section>
 
   <footer>
-    <h5>東京ベイサイドホテル　ホーム</h5>
+    <h1>東京ベイサイドホテル　ホーム</h1>
 
-    <h6>こだわり</h6>
-    <ul>
-      <li><a href="#">当館のこだわり</a></li>
-    </ul>
+      <section>
+        <h2>こだわり</h2>
+        <ul>
+          <li><a href="#">当館のこだわり</a></li>
+        </ul>
+      </section>
 
-    <h6><a href="#">ご宿泊</a></h6>
-    <ul>
-      <li><a href="#">コンセプト</a></li>
-      <li><a href="#">ご宿泊プラン</a></li>
-      <li><a href="#">客室のご案内</a></li>
-      <li><a href="#">客室料金一覧</a></li>
-      <li><a href="#">サービス＆アメニティ</a></li>
-      <li><a href="#">グループ・団体予約</a></li>
-    </ul>
+      <section>
+        <h2><a href="#">ご宿泊</a></h2>
+        <ul>
+          <li><a href="#">コンセプト</a></li>
+          <li><a href="#">ご宿泊プラン</a></li>
+          <li><a href="#">客室のご案内</a></li>
+          <li><a href="#">客室料金一覧</a></li>
+          <li><a href="#">サービス＆アメニティ</a></li>
+          <li><a href="#">グループ・団体予約</a></li>
+        </ul>
+      </section>
 
-    <h6><a href="#">レストラン</a></h6>
-    <ul>
-      <li><a href="#">こだわりの朝食</a></li>
-      <li><a href="#">ランチ</a></li>
-      <li><a href="#">ディナー</a></li>
-      <li><a href="#">スイーツ</a></li>
-      <li><a href="#">カフェ</a></li>
-      <li><a href="#">期間限定特別メニュー</a></li>
-    </ul>
+      <section>
+        <h2><a href="#">レストラン</a></h2>
+        <ul>
+          <li><a href="#">こだわりの朝食</a></li>
+          <li><a href="#">ランチ</a></li>
+          <li><a href="#">ディナー</a></li>
+          <li><a href="#">スイーツ</a></li>
+          <li><a href="#">カフェ</a></li>
+          <li><a href="#">期間限定特別メニュー</a></li>
+        </ul>
+      </section>
 
-    <h6><a href="#">ウエディング</a></h6>
-    <ul>
-      <li><a href="#">ブライダルフェア</a></li>
-      <li><a href="#">プラン</a></li>
-      <li><a href="#">式場・会場</a></li>
-      <li><a href="#">料理</a></li>
-      <li><a href="#">ドレス・ビューティー</a></li>
-    </ul>
+      <section>
+        <h2><a href="#">ウエディング</a></h2>
+        <ul>
+          <li><a href="#">ブライダルフェア</a></li>
+          <li><a href="#">プラン</a></li>
+          <li><a href="#">式場・会場</a></li>
+          <li><a href="#">料理</a></li>
+          <li><a href="#">ドレス・ビューティー</a></li>
+        </ul>
+      </section>
 
-    <h6><a href="#">フォトギャラリー</a></h6>
-    <p>館内の雰囲気や自慢の料理などをご紹介しています。</p>
+      <section>
+        <h2><a href="#">フォトギャラリー</a></h2>
+        <p>館内の雰囲気や自慢の料理などをご紹介しています。</p>
 
-    <h6><a href="#">アクセス</a></h6>
-    <ul>
-      <li><a href="#">交通案内</a></li>
-      <li><a href="#">電車でのアクセス</a></li>
-      <li><a href="#">お車でのアクセス</a></li>
-      <li><a href="#">リムジンバスでのアクセス</a></li>
-      <li><a href="#">観光案内</a></li>
-      <li><a href="#">周辺案内</a></li>
-    </ul>
+        <h2><a href="#">アクセス</a></h2>
+        <ul>
+          <li><a href="#">交通案内</a></li>
+          <li><a href="#">電車でのアクセス</a></li>
+          <li><a href="#">お車でのアクセス</a></li>
+          <li><a href="#">リムジンバスでのアクセス</a></li>
+          <li><a href="#">観光案内</a></li>
+          <li><a href="#">周辺案内</a></li>
+        </ul>
+      </section>
 
-    <h6><a href="#">新着情報</a></h6>
-    <ul>
-      <li><a href="#">すべて</a></li>
-      <li><a href="#">ご宿泊</a></li>
-      <li><a href="#">イベント</a></li>
-      <li><a href="#">レストラン</a></li>
-      <li><a href="#">ウエディング</a></li>
-    </ul>
+      <section>
+        <h2><a href="#">新着情報</a></h2>
+        <ul>
+          <li><a href="#">すべて</a></li>
+          <li><a href="#">ご宿泊</a></li>
+          <li><a href="#">イベント</a></li>
+          <li><a href="#">レストラン</a></li>
+          <li><a href="#">ウエディング</a></li>
+        </ul>
+      </section>
 
-    <h6><a href="#">よくあるご質問・お問い合わせ</a></h6>
-    <ul>
-      <li><a href="#">ご宿泊について</a></li>
-      <li><a href="#">レストランについて</a></li>
-      <li><a href="#">施設について</a></li>
-      <li><a href="#">ホテル全般について</a></li>
-    </ul>
+      <section>
+        <h2><a href="#">よくあるご質問・お問い合わせ</a></h2>
+        <ul>
+          <li><a href="#">ご宿泊について</a></li>
+          <li><a href="#">レストランについて</a></li>
+          <li><a href="#">施設について</a></li>
+          <li><a href="#">ホテル全般について</a></li>
+        </ul>
+      </section>
 
-    <h6>オフィシャルアカウント</h6>
-    <ul>
-      <li><a href="#">twitter</a></li>
-      <li><a href="#">facebook</a></li>
-    </ul>
+      <section>
+        <h2>オフィシャルアカウント</h2>
+        <ul>
+          <li><a href="#">twitter</a></li>
+          <li><a href="#">facebook</a></li>
+        </ul>
+      </section>
 
-    <p>東京ベイサイドホテル　〒135-0063　東京都江東区有明3-1-15　TEL：03-6700-0001(代表)　FAX：03-6700-0007</p>
+      <p>東京ベイサイドホテル　〒135-0063　東京都江東区有明3-1-15　TEL：03-6700-0001(代表)　FAX：03-6700-0007</p>
+
     <p class="copyright"><small>&copy; Copyright(c) RESORTTRUST All rights reserved.</small></p>
 
   </footer>
