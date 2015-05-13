@@ -60,19 +60,27 @@ body{
 
 
 header{
-	width: 1024px;
-	margin: 0 auto;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+	position: relative;
 }
 
-header section{
+header div{
+	width: 1024px;
+	margin: 0 auto;
 	overflow: hidden;
 }
 
-header h2{
-	/* width: 256px;
-	height: 62px; */
+header h1{
+	width: 256px;
+	height: 62px;
 	float: left;
 }
+
+header nav{
+	width: 768px;
+	float: right;
+}
+
 
 nav ul{
 	overflow: hidden;
@@ -111,11 +119,11 @@ nav ul li a span{
 
 /* headerについて */
 
-
 #reserveform{
 	width: 100%;
 	height: 56px;
 	background-color: #20625f;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
 }
 
 #reserveform form{
@@ -136,6 +144,7 @@ nav ul li a span{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	font-weight: normal;
 }
 
 #reserveform h2 span{
@@ -143,6 +152,7 @@ nav ul li a span{
 	display: block;
 	padding-top: 7px;
 	text-align: center;
+	font-weight: normal;
 }
 
 #reserveform dt{
@@ -163,7 +173,7 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
 	font-family:Helvetica, Arial, sans-serif;
-  padding: 4px 20px 4px 10px;
+  padding: 4px 24px 4px 12px;
 	border-radius: 0;
   background: #fff;
   font-size: 11px;
@@ -172,31 +182,36 @@ select {
 	cursor:pointer;
 }
 
-.research{
+#reserveform .research{
 	border:solid 0px #ccc;
-	padding:6px 32px;
-	font-family:Helvetica, Arial, sans-serif;
-	font-size:11px;
+	padding:6px 35px;
+	font-size:12px;
 	text-transform:uppercase;
-	background: #5eb5b2;
+	background: url(../img/triangle_w.png) no-repeat 8px 12px,  #5eb5b2;
 	color:#fff;
 	cursor:pointer;
 	float: left;
-	margin-left: 32px;
+	margin-left: 22px;
 	margin-top: 14px;
 }
 
-.confirm{
+#reserveform img{
+	float: left;
+	margin: 8px 18px;
+}
+/* 区切りの画像 */
+
+#reserveform .confirm{
 	border:solid 0px #ccc;
 	padding:6px 20px;
 	font-family:Helvetica, Arial, sans-serif;
 	font-size:11px;
 	text-transform:uppercase;
-	background: rgba(0,0,0,0);
+	background:  url(../img/triangle_w.png) no-repeat 0px 12px, rgba(0,0,0,0);
 	color:#fff;
 	cursor:pointer;
 	float: left;
-	margin-left: 32px;
+	margin-left: 1px;
 	margin-top: 14px;
 }
 
@@ -220,6 +235,7 @@ select {
 
 .h2-span{
 	font-size:11px;
+	font-weight: normal;
 	color:#999999;
 	margin-left: 16px;
 }
