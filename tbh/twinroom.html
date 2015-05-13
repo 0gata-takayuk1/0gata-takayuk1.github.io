@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>Twin Room</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <h1>
-      <a href="index.html"><img src="img/logo.jpg" alt="TokyoBaySideHotel"></a>
+      <a href="index.html"><img src="img/logo.jpg" alt="Tokyo BaySide Hotel"></a>
     </h1>
       <ul>
         <li><a href="#">English</a></li>
@@ -30,7 +32,7 @@
   <!-- ナビゲーション -->
 
   <div>
-      <img src="img/roomVisual.jpg" alt="twinroom visual">
+      <img src="img/roomVisual.jpg" alt="デザインと機能性を兼ね備え、コンテンポラリーなモダンインテリアが演出する客室">
   </div>
   <!-- main visual -->
 
@@ -159,13 +161,13 @@
 
   <div>
     <img src="img/twinroom01.jpg" alt="twin mainVisual">
-    <img src="img/twinroom02.jpg" alt="twinroom02">
-    <img src="img/twinroom03.jpg" alt="twinroom03">
-    <img src="img/twinroom04.jpg" alt="twinroom04">
-    <img src="img/twinroom05.jpg" alt="twinroom05">
-    <img src="img/twinroom06.jpg" alt="twinroom06">
-    <img src="img/twinroom07.jpg" alt="twinroom07">
-    <img src="img/twinroom08.jpg" alt="twinroom08">
+    <img src="img/twinroom02.jpg" alt="客室別角度01">
+    <img src="img/twinroom03.jpg" alt="客室別角度02">
+    <img src="img/twinroom04.jpg" alt="客室別角度03">
+    <img src="img/twinroom05.jpg" alt="客室別角度04">
+    <img src="img/twinroom06.jpg" alt="客室別角度05">
+    <img src="img/twinroom07.jpg" alt="客室別角度06">
+    <img src="img/twinroom08.jpg" alt="見取り図">
   </div>
 
   <section>
@@ -235,18 +237,19 @@
 
   <section>
     <h3>おすすめプラン</h3>
-    <a href="#">
-      <img src="img/roomplan01.jpg" alt="plan01"></a>
-    <a href="#">
-      <img src="img/roomplan02.jpg" alt="plan02"></a>
-    <a href="#">
-      <img src="img/roomplan03.jpg" alt="plan03"></a>
+    <ul>
+      <li><a href="#"><img src="img/roomplan01.jpg" alt="記念日プラン"></a></li>
+      <li><a href="#"><img src="img/roomplan02.jpg" alt="ファミリープラン"></a></li>
+      <li><a href="#"><img src="img/roomplan03.jpg" alt="ビジネスプラン"></a></li>
+    </ul>
   </section>
 </section>
 
 <footer>
-  <h1>東京ベイサイドホテル　ホーム</h1>
+  <div class="wrapper">
+    <h1>東京ベイサイドホテル　ホーム</h1>
 
+  <div class="footer_nav">
     <section>
       <h2>こだわり</h2>
       <ul>
@@ -292,7 +295,11 @@
     <section>
       <h2><a href="#">フォトギャラリー</a></h2>
       <p>館内の雰囲気や自慢の料理などをご紹介しています。</p>
+    </section>
+  </div>
 
+  <div class="footer_nav">
+    <section>
       <h2><a href="#">アクセス</a></h2>
       <ul>
         <li><a href="#">交通案内</a></li>
@@ -316,6 +323,19 @@
     </section>
 
     <section>
+      <h2><a href="#">その他</a></h2>
+      <ul>
+        <li><a href="#">サイトマップ</a></li>
+        <li><a href="#">リンク集</a></li>
+        <li><a href="#">プライバシーポリシー</a></li>
+        <li><a href="#">フロアガイド</a></li>
+        <li><a href="#">ホテル利用規則</a></li>
+        <li><a href="#">企業・採用情報</a></li>
+        <li><a href="#">ENGLISH</a></li>
+      </ul>
+    </section>
+
+    <section>
       <h2><a href="#">よくあるご質問・お問い合わせ</a></h2>
       <ul>
         <li><a href="#">ご宿泊について</a></li>
@@ -328,15 +348,19 @@
     <section>
       <h2>オフィシャルアカウント</h2>
       <ul>
-        <li><a href="#">twitter</a></li>
-        <li><a href="#">facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><br></li>
+        <li><a href="#">Facebook</a></li>
       </ul>
     </section>
+  </div>
+  </div>
+  <!-- wrapper閉じる-->
+  <p id="tbh">東京ベイサイドホテル　〒135-0063　東京都江東区有明3-1-15　TEL：03-6700-0001(代表)　FAX：03-6700-0007</p>
 
-    <p>東京ベイサイドホテル　〒135-0063　東京都江東区有明3-1-15　TEL：03-6700-0001(代表)　FAX：03-6700-0007</p>
-
-  <p class="copyright"><small>&copy; Copyright(c) RESORTTRUST All rights reserved.</small></p>
+  <p id="copyright"><small>&copy; Copyright(c) RESORTTRUST All rights reserved.</small></p>
 
 </footer>
+
 </body>
 </html>

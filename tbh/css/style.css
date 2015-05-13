@@ -1,0 +1,446 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#topbar{
+	background-color:#153d3c;
+	height:24px;
+	overflow: hidden;
+	position: relative;
+}
+
+#topbar div{
+	width:1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#topbar ul{
+	float: right;
+	padding-right: 8px;
+}
+
+#topbar li{
+	font-size: 11px;
+	font-family: Helvetica, Arial, sans-serif;
+	float: left;
+	margin-top: 6px;
+	margin-left: 30px;
+	background: url(../img/triangle_w.png)  no-repeat 0px 2px;
+	padding-left: 12px;
+}
+
+
+
+#topbar li:first-child{
+	font-size: 10px;
+	width: 56px;
+	height: 13px;
+	background: none;
+	background-color: #408c89;
+	text-align: center;
+	padding-top: 3px;
+	padding-left: 0;
+	margin-top: 4px;
+}
+
+#topbar a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* ヘッダーのトップバーについて */
+
+
+
+header{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header section{
+	overflow: hidden;
+}
+
+header h2{
+	/* width: 256px;
+	height: 62px; */
+	float: left;
+}
+
+nav ul{
+	overflow: hidden;
+}
+
+nav ul li{
+	font-size: 13px;
+	font-family: Helvetica, Arial, sans-serif;
+	float: left;
+	width: 127px;
+/* 	position: relative; */
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 13px;
+}
+
+nav ul li:first-child{
+	width: 128px;
+}
+
+.line{
+	width: 1px;
+	margin-top: 4px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #3d1f0f;
+	/* position: absolute; */
+}
+
+nav ul li a span{
+	font-size: 10px;
+	color : #8a593e;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+}
+
+/* headerについて */
+
+
+#reserveform{
+	width: 100%;
+	height: 56px;
+	background-color: #20625f;
+}
+
+#reserveform form{
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.reserve-middle{
+	float: left;
+}
+
+#reserveform h2{
+	height: 56px;
+	width: 154px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#reserveform h2 span{
+	font-size: 10px;
+	display: block;
+	padding-top: 7px;
+	text-align: center;
+}
+
+#reserveform dt{
+	height: 56px;
+	color: #fff;
+	font-size: 11px;
+	padding-top:22px;
+	float: left;
+	margin-left: 20px;
+}
+
+#reserveform dd{
+	margin-top:14px;
+	float: left;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+	font-family:Helvetica, Arial, sans-serif;
+  padding: 4px 20px 4px 10px;
+	border-radius: 0;
+  background: #fff;
+  font-size: 11px;
+  color: #666;
+	margin-left: 8px;
+	cursor:pointer;
+}
+
+.research{
+	border:solid 0px #ccc;
+	padding:6px 32px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	text-transform:uppercase;
+	background: #5eb5b2;
+	color:#fff;
+	cursor:pointer;
+	float: left;
+	margin-left: 32px;
+	margin-top: 14px;
+}
+
+.confirm{
+	border:solid 0px #ccc;
+	padding:6px 20px;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	text-transform:uppercase;
+	background: rgba(0,0,0,0);
+	color:#fff;
+	cursor:pointer;
+	float: left;
+	margin-left: 32px;
+	margin-top: 14px;
+}
+
+/* 宿泊予約 */
+
+
+.contents{
+	margin: 56px 0px 68px;
+}
+
+.title{
+	height: 18px;
+	margin-bottom: 16px;
+}
+
+.midashi{
+	font-size:18px;
+	color:#666666;
+	float: left;
+}
+
+.h2-span{
+	font-size:11px;
+	color:#999999;
+	margin-left: 16px;
+}
+
+.contents-ichiran{
+	float: right;
+}
+
+/* それぞれの設定 */
+
+#container-plan{
+	margin-top: 16px;
+	overflow: hidden;
+}
+
+.plan01_img{
+	width: 240px;
+	height: 280px;
+	float: left;
+	margin-left: 16px;
+}
+
+.plan04_img{
+	width: 256px;
+	height: 136px;
+	float: left;
+	margin-left: 16px;
+}
+
+#container-plan ul li:first-child{
+	margin-left: 0px ;
+}
+
+#container-plan ul li:last-child{
+	margin-top: 8px;
+}
+
+
+/* プランの設定 */
+
+
+#container-pickup{
+	overflow: hidden;
+}
+
+#container-pickup ul{
+	overflow: hidden;
+}
+
+article{
+	width: 496px;
+	height: 120px;
+	margin: 24px 0px 24px 8px;
+	position:relative;
+}
+
+.article-left{
+	float: left;
+}
+
+.article-right{
+	float: right;
+}
+
+article img{
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-right: 16px;
+}
+
+.pickup_contents{
+	width: 360px;
+	height: 120px;
+	float: right;
+}
+
+article a{
+	text-decoration: none;
+	color: #666;
+}
+
+article h4{
+	font-size: 14px;
+	margin-bottom: 8px;
+	padding-top: 4px;
+	line-height:1.5;
+}
+
+article p{
+	font-size: 11px;
+	line-height:1.5;
+}
+
+.pickup_category{
+	width: 80px;
+	height: 16px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #3e8a87;
+	text-align: center;
+	position:absolute;
+	top: 100px;
+	padding-top: 4px;
+}
+
+.pickup_line{
+	clear: both;
+}
+
+#pickup-contents_nav{
+	float: right;
+}
+
+#pickup-contents_nav li{
+	float: left;
+	margin: 20px 8px;
+}
+
+#pickup-contents_nav li:last-child{
+	margin-right: 0px;
+}
+
+#pickup-contents_nav a{
+	font-size: 10px;
+	color: #666;
+	text-decoration: none;
+}
+
+/* 新着情報の設定 */
+
+
+.three-line{
+	height: 1px;
+	border-bottom:1px solid #dddddd;
+	border-top: 0;
+}
+
+/* フッター上の三本線 */
+
+footer{
+	background-color: #eee;
+	overflow: hidden;
+	color: #666;
+}
+
+footer h1{
+	font-size: 12px;
+	margin: 18px 0px 14px	8px;
+}
+
+.footer_nav,
+.footer_nav:visited{
+	width: 944px;
+	float: right;
+	font-size: 12px;
+}
+
+
+.footer_nav section{
+	width: 176px;
+	margin-left: 16px;
+	margin-bottom: 32px;
+	float: left;
+}
+
+.footer_nav section:first-child{
+	margin-left: 0px;
+}
+
+.footer_nav li{
+	margin-top: 6px;
+	background: url(../img/triangle_b.png) no-repeat 0 2px;
+	padding-left: 16px;
+	}
+
+.footer_nav a{
+	color: #666;
+}
+
+.footer_nav h2{
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+#twitter_icon{
+	height: 32px;
+	background: url(../img/twitter.png) no-repeat 80px 0px;
+}
+#facebook_icon{
+	height: 56px;
+	background: url(../img/facebook.png) no-repeat 80px 0px;
+}
+
+
+footer p{
+	clear: right;
+}
+
+#tbh{
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #666;
+	padding: 8px;
+	border-top: 1px solid #ccc;
+	margin-bottom: 24px;
+}
+
+#copyright{
+	font-size: 10px;
+	color: #fff;
+	height: 22px;
+	padding-top: 10px;
+	background-color: #153d3c;
+	text-align: center;
+}
+
+/* フッター */
