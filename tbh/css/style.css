@@ -76,17 +76,17 @@ header h1{
 	float: left;
 }
 
-header nav{
+header .gnav{
 	width: 768px;
 	float: right;
 }
 
 
-nav ul{
+.gnav ul{
 	overflow: hidden;
 }
 
-nav ul li{
+.gnav ul li{
 	font-size: 13px;
 	font-family: Helvetica, Arial, sans-serif;
 	float: left;
@@ -98,18 +98,18 @@ nav ul li{
 }
 
 
-.line{
+.gnav .line{
 	width: 1px;
 	margin-top: 4px;
 }
 
-nav ul li a{
+.gnav ul li a{
 	text-decoration: none;
 	color: #3d1f0f;
 	/* position: absolute; */
 }
 
-nav ul li a span{
+.gnav ul li a span{
 	font-size: 10px;
 	color : #8a593e;
 	text-align: center;
@@ -182,17 +182,18 @@ select {
 	cursor:pointer;
 }
 
-#reserveform_room .research{
+#reserveform .research{
 	border:solid 0px #ccc;
 	padding:6px 35px;
 	font-size:12px;
 	text-transform:uppercase;
-	background: url(../img/triangle_w.png) no-repeat 8px 12px,  #5eb5b2;
+	background: url(../img/triangle_w.png) no-repeat 8px 12px, #5eb5b2;
 	color:#fff;
 	cursor:pointer;
 	float: left;
 	margin-left: 22px;
 	margin-top: 14px;
+	letter-spacing: 4px;
 }
 
 #reserveform img{
@@ -231,6 +232,7 @@ select {
 	font-size:18px;
 	color:#666666;
 	float: left;
+	letter-spacing:2pt;
 }
 
 .h2-span{
@@ -238,6 +240,7 @@ select {
 	font-weight: normal;
 	color:#999999;
 	margin-left: 16px;
+	letter-spacing:1pt;
 }
 
 .contents-ichiran{

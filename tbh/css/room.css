@@ -1,15 +1,19 @@
-.sidebar{
-  width: 210px;
-  float: left;
-
-}
-
-
-
 .room-mainvisual{
 	width: 1280px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+.room{
+  width: 1024px;
+  height: auto;
+  margin-top: 24px;
+}
+/* headerとmainvisualをのぞくルームページのマージン */
+
+.sidebar{
+  width: 210px;
+  float: left;
 }
 
 #reserveform_room{
@@ -103,6 +107,7 @@ select {
 	cursor:pointer;
   margin-left: 54px;
   margin-top: 8px;
+  letter-spacing: 4px;
 }
 
 #reserveform_room img{
@@ -128,43 +133,118 @@ select {
 /* 宿泊予約 */
 
 
-#stay_nav{
+.stay_nav{
+  width: 210px;
   color: #666;
-
+  margin: 32px 0px;
 }
 
-#stay_nav li{
-  width: 210px;
-  clear: both;
+.stay_nav h2{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.hr_snav{
+      display:block;
+      height:1px;
+      border:0;
+      border-top:1px solid #eccfae;
+      margin:0 0;
+      padding:0;
+}
+
+.stay_nav a{
+  text-decoration: none;
+  color: #666;
+}
+
+.stay_nav ul{
+  overflow: hidden;
+}
+
+.stay_nav ul li img{
+  width: 195px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.snav2{
+  width: 186px;
+  font-size: 14px;
   text-align: left;
   line-height: 40px;
-  border-bottom: 1px solid #eccfae;
   padding: 0px;
+  padding-left: 24px;
+  background: url(../img/arrow02.png)  no-repeat 12px 18px;
 }
 
-#stay_nav a{
-  text-decolation: none;
-  color: #666;
+.snav1{
+  width: 174px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 40px;
+  padding: 0px;
+  padding-left: 36px;
+  background: url(../img/arrow01.png)  no-repeat 24px 18px;
+
 }
 
+.nowpage{
+  width: 176px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 40px;
+  padding-left: 36px;
+  margin: 0;
+  padding: 0 0 0 36px;
+  background: #dac39c;
+}
 
+.nowpage a{
+  color: #FFF;
+}
 
 .room_contents{
   width: 768px;
   float: right;
   overflow: hidden;
+  color: #444;
+}
+
+.pankuzu{
+  width: 768px;
+  height: 12px;
+  font-size: 12px;
+  color: #42221d;
+}
+
+.pankuzu li{
+  float: left;
+  margin-right: 24px;
+}
+
+.pankuzu a{
+  text-decoration: none;
+  color: #999;
 }
 
 .room_contents h2{
   font-size: 24px;
   color: #333;
   font-weight: normal;
+  margin-top: 24px;
   margin-bottom: 16px;
+  letter-spacing:2pt;
 }
 
 .room_contents h2 span{
   font-size: 11px;
   color: #999;
+  letter-spacing:2pt;
 }
 
 .room_line{
@@ -206,31 +286,76 @@ select {
   margin-bottom: 0px;
 }
 
+.room_element{
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
 .room_copy{
   float: left;
   width: 496px;
-  height: 120px;
-  margin: 0;
+  height: 108px;
+  margin: 16px 0px;
   padding: 0;
 }
 
-table{
+.room_table{
   float: right;
-  height: 120px;
-  width: 272px;
+  width: 256px;
+  height: 108px;
+  margin: 16px 0px;
+}
+
+.room_table tr{
+  border-top: 1px solid #8c6740;
+  border-bottom: 1px solid #8c6740;
+}
+
+.room_table th, .room_table td{
+  padding-top: 11px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.room_table th{
+  width: 86px;
+  float: left;
+  text-align: left;
+}
+
+.room_table td{
+  width: 115px;
+  float: left;
+  text-align: center;
+}
+
+.room_table td:last-child{
+  width: 55px;
+  float: right;
+  text-align: center;
 }
 
 .room_contents h3{
-  margin: 24px 0px;
+  padding: 8px 0px;
   font-size: 24px;
   font-weight: normal;
+  letter-spacing:2px;
 }
 
 .room_contents h4{
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+  letter-spacing:2px;
 }
+
+.room_contents p{
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 8px 0px;
+  letter-spacing:1px;
+}
+
 
 .room_sub1{
   width: 240px;
@@ -239,10 +364,14 @@ table{
   margin-right: 16px;
 }
 
+.room_sub1 h4{
+  text-align :center;
+}
+
 .room_contents section ul{
   margin-top: 16px;
   font-size: 12px;
-  line-height:1.5;
+  line-height:1.8;
 }
 
 .room_sub2{
@@ -252,12 +381,27 @@ table{
   overflow: hidden;
 }
 
-.room_sub2 ul{
+.room_sub2 h4{
+  text-align :center;
+}
+
+.room_sub2-l{
+  width: 128px;
   float: left;
+}
+
+.room_sub2-r{
+  width: 128px;
+  float: right;
 }
 
 .room_plan{
   clear: both;
+  margin-bottom: 76px;
+}
+
+.room_plan{
+  text-align :center;
 }
 
 .room_plan ul{
@@ -265,11 +409,10 @@ table{
 }
 
 .room_plan li{
-  width: 234px;
-  height: 265px;
-  margin-left: 30px;
+  width: 232px;
+  height: 262px;
+  margin-left: 36px;
   float: left;
-  display: block;
 }
 
 
