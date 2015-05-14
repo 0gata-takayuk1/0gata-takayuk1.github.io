@@ -36,8 +36,6 @@ body{
 	padding-left: 12px;
 }
 
-
-
 #topbar li:first-child{
 	font-size: 10px;
 	width: 56px;
@@ -81,7 +79,6 @@ header .gnav{
 	float: right;
 }
 
-
 .gnav ul{
 	overflow: hidden;
 }
@@ -90,13 +87,13 @@ header .gnav{
 	font-size: 13px;
 	font-family: Helvetica, Arial, sans-serif;
 	float: left;
-	width: 127px;
+	width: 128px;
 /* 	position: relative; */
 	text-align: center;
 	padding-top: 19px;
 	padding-bottom: 13px;
+	background: url(../img/line01.png) 127px 22px no-repeat;
 }
-
 
 .gnav .line{
 	width: 1px;
@@ -120,6 +117,7 @@ header .gnav{
 }
 
 /* headerについて */
+
 
 #reserveform{
 	width: 100%;
@@ -358,28 +356,20 @@ article p{
 
 #pickup-contents_nav{
 	float: right;
+	background: url(../img/line02.png) left 24px no-repeat;
 }
 
 #pickup-contents_nav li{
 	float: left;
-	margin: 20px 8px;
+	padding: 20px 16px;
+	background: url(../img/line02.png) right 24px no-repeat;
 }
 
-#pickup-contents_nav li:last-child{
-	margin-right: 0px;
-}
 
 #pickup-contents_nav a{
 	font-size: 10px;
 	color: #666;
 	text-decoration: none;
-}
-
-.line2{
-	width: 1px;
-	height: 12px;
-	padding-top: 8px;
-	background: url(../img/line02.png) 0 no-repeat;
 }
 
 
@@ -449,7 +439,6 @@ footer h1{
 	height: 56px;
 	background: url(../img/facebook.png) no-repeat 80px 0px;
 }
-
 
 footer p{
 	clear: right;
