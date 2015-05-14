@@ -182,7 +182,7 @@ select {
 	cursor:pointer;
 }
 
-#reserveform .research{
+#reserveform_room .research{
 	border:solid 0px #ccc;
 	padding:6px 35px;
 	font-size:12px;

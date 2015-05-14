@@ -50,191 +50,200 @@
   <!-- main visual -->
 
 <div class="wrapper">
-  <div id="reserveform_room">
-    <form action="reserveform.php" method="post">
-      <section class="reserve-middle_room">
-        <h2>宿泊予約<span>reservation</span></h2>
-      </section>
-      <dl class="stay-ymd">
-        <dt>宿泊日</dt>
-        <dd>
-          <select name="yearmonth" id="yearmonth">
-            <option value="201404">2015年4月</option>
-            <option value="201405">2015年5月</option>
-            <option value="201406">2015年6月</option>
-            <option value="201407">2015年7月</option>
-            <option value="201408">2015年8月</option>
-            <option value="201409">2015年9月</option>
-          </select>
-        </dd>
+  <div class="sidebar">
+    <div id="reserveform_room">
+      <form action="reserveform.php" method="post">
+        <section class="reserve-middle_room">
+          <h2>宿泊予約<span>reservation</span></h2>
+        </section>
+        <dl class="stay-ymd">
+          <dt>宿泊日</dt>
+          <dd>
+            <select name="yearmonth" id="yearmonth">
+              <option value="201404">2015年4月</option>
+              <option value="201405">2015年5月</option>
+              <option value="201406">2015年6月</option>
+              <option value="201407">2015年7月</option>
+              <option value="201408">2015年8月</option>
+              <option value="201409">2015年9月</option>
+            </select>
+          </dd>
 
-        <dd>
-          <select name="day" id="day">
-            <option value="01">1日</option>
-            <option value="02">2日</option>
-            <option value="03">3日</option>
-          </select>
-        </dd>
-      </dl>
+          <dd>
+            <select name="day" id="day">
+              <option value="01">1日</option>
+              <option value="02">2日</option>
+              <option value="03">3日</option>
+            </select>
+          </dd>
+        </dl>
 
-      <dl class="stay-npr">
-        <dt>泊・人・部屋数</dt>
-        <dd>
-          <select name="nights" id="nights">
-            <option value="01">1泊</option>
-            <option value="02">2泊</option>
+        <dl class="stay-npr">
+          <dt>泊・人・部屋数</dt>
+          <dd>
+            <select name="nights" id="nights">
+              <option value="01">1泊</option>
+              <option value="02">2泊</option>
 
-          </select>
-        </dd>
-        <dd>
-          <select name="people" id="people">
-            <option value="01">1人</option>
-            <option value="02">2人</option>
+            </select>
+          </dd>
+          <dd>
+            <select name="people" id="people">
+              <option value="01">1人</option>
+              <option value="02">2人</option>
 
-          </select>
-        </dd>
-        <dd>
-          <select name="rooms" id="rooms">
-            <option value="01">1部屋</option>
-            <option value="02">2部屋</option>
-          </select>
-        </dd>
-      </dl>
-      <input class="research" type="submit" value="検索">
-      <p sty><img src="img/divide_wide.png" alt="区切り"></p>
-      <input class="confirm" type="submit" value="予約確認・変更・取消">
-    </form>
+            </select>
+          </dd>
+          <dd>
+            <select name="rooms" id="rooms">
+              <option value="01">1部屋</option>
+              <option value="02">2部屋</option>
+            </select>
+          </dd>
+        </dl>
+        <input class="research" type="submit" value="検索">
+        <p sty><img src="img/divide_wide.png" alt="区切り"></p>
+        <input class="confirm" type="submit" value="予約確認・変更・取消">
+      </form>
+    </div>
+
+      <!-- 宿泊予約 -->
+
+    <nav id="stay_nav">
+      <h2>ご宿泊</h2>
+      <ul>
+          <li><a href="#">宿泊プラン</a></li>
+          <li><a href="#">客室のご案内</a></li>
+          <li><a href="#">スイートルーム</a></li>
+          <li><a href="#">ツインルーム</a></li>
+          <li><a href="#">ダブルルーム</a></li>
+          <li><a href="#">シングルルーム</a></li>
+          <li><a href="#">ファミリールーム</a></li>
+          <li><a href="#">レディースルーム</a></li>
+          <li><a href="#">バリアフリー</a></li>
+          <li><a href="#">客室料金一覧</a></li>
+          <li><a href="#">サービス＆アメニティ</a></li>
+          <li><a href="#">グループ・団体予約</a></li>
+      </ul>
+    </nav>
+    <!-- ご宿泊ナビゲーション -->
   </div>
 
-    <!-- 宿泊予約 -->
-
-  <nav>
-    <h2>ご宿泊</h2>
+<div class="room_contents">
     <ul>
-        <li><a href="#">宿泊プラン</a></li>
-        <li>
-          <a href="#">客室のご案内</a>
-          <ul>
-            <li><a href="#">スイートルーム</a></li>
-            <li><a href="#">ツインルーム</a></li>
-            <li><a href="#">ダブルルーム</a></li>
-            <li><a href="#">シングルルーム</a></li>
-            <li><a href="#">ファミリールーム</a></li>
-            <li><a href="#">レディースルーム</a></li>
-            <li><a href="#">バリアフリー</a></li>
-          </ul>
-        </li>
-        <li><a href="#">客室料金一覧</a></li>
-        <li><a href="#">サービス＆アメニティ</a></li>
-        <li><a href="#">グループ・団体予約</a></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ご宿泊</a></li>
+      <li>ツインルーム</li>
     </ul>
-  </nav>
-  <!-- ご宿泊ナビゲーション -->
-
-
-  <ul>
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">ご宿泊</a></li>
-    <li>ツインルーム</li>
-  </ul>
-  <!-- パンクズナビゲーション -->
+    <!-- パンクズナビゲーション -->
 
 
 
-  <section>
-  <h2>ツインルームTwin room</h2>
+    <section>
+    <h2>ツインルーム　<span>Twin room</span></h2>
+    <hr class="room_line">
+    <hr class="room_line">
 
-  <div>
-    <img src="img/twinroom01.jpg" alt="twin mainVisual">
-    <img src="img/twinroom02.jpg" alt="客室別角度01">
-    <img src="img/twinroom03.jpg" alt="客室別角度02">
-    <img src="img/twinroom04.jpg" alt="客室別角度03">
-    <img src="img/twinroom05.jpg" alt="客室別角度04">
-    <img src="img/twinroom06.jpg" alt="客室別角度05">
-    <img src="img/twinroom07.jpg" alt="客室別角度06">
-    <img src="img/twinroom08.jpg" alt="見取り図">
+    <div class="room_pic">
+      <img class="big_pic" src="img/twinroom01.jpg" alt="twin mainVisual">
+      <div class="small_pic">
+        <img src="img/twinroom02.jpg" alt="客室別角度01">
+        <img src="img/twinroom03.jpg" alt="客室別角度02">
+        <img src="img/twinroom04.jpg" alt="客室別角度03">
+        <img src="img/twinroom05.jpg" alt="客室別角度04">
+        <img src="img/twinroom06.jpg" alt="客室別角度05">
+        <img src="img/twinroom07.jpg" alt="客室別角度06">
+        <img src="img/twinroom08.jpg" alt="見取り図">
+      </div>
+    </div>
+
+    <section class="room_copy">
+      <h3>特別な空間で、上質なくつろぎを</h3>
+      <p>カップルやご友人など、様々な用途でご利用いただけます。
+        <br>寝心地に特価して考えられたベッドで、快適な睡眠を保証します。</p>
+    </section>
+
+    <table>
+      <tr>
+        <th></th>
+        <td>面積</td>
+        <td>料金</td>
+      </tr>
+      <tr>
+        <th>スタンダード</th>
+        <td>16m&sup2;</td>
+        <td>¥24,800</td>
+      </tr>
+      <tr>
+        <th>スーベリア</th>
+        <td>20m&sup2;</td>
+        <td>¥29,800</td>
+      </tr>
+    </table>
+
+    <section class="room_sub1">
+      <h4>サービス</h4>
+      <hr class="room_line">
+      <ul>
+        <li>・高速ワイヤレスインターネット</li>
+        <li>・ランドリー</li>
+        <li>・マッサージ</li>
+        <li>・ビデオ・オン・デマンド</li>
+      </ul>
+    </section>
+
+    <section class="room_sub1">
+      <h4>客室設備</h4>
+      <hr class="room_line">
+      <ul>
+        <li>・シャワートイレ</li>
+        <li>・冷蔵庫</li>
+        <li>・ドライヤー</li>
+        <li>・ズボンプレッサー</li>
+        <li>・液晶テレビ</li>
+      </ul>
+    </section>
+
+    <section class="room_sub2">
+      <h4>アメニティ</h4>
+      <hr class="room_line">
+      <ul>
+        <li>・ナイトウェア</li>
+        <li>・バスローブ</li>
+        <li>・スリッパ</li>
+        <li>・シャンプー</li>
+        <li>・コンディショナー</li>
+        <li>・ボディシャンプー</li>
+        <li>・バスソルト</li>
+      </ul>
+      <ul>
+        <li>・化粧水</li>
+        <li>・ボディタオル</li>
+        <li>・ヘアブラシ</li>
+        <li>・シャワーキャップ</li>
+        <li>・ひげ剃り</li>
+        <li>・歯ブラシ</li>
+        <li>・コットン</li>
+      </ul>
+    </section>
+
+    <section class="room_plan">
+      <h4>おすすめプラン</h4>
+      <hr class="room_line">
+      <ul>
+        <li><a href="#"><img src="img/roomplan01.jpg" alt="記念日プラン"></a></li>
+        <li><a href="#"><img src="img/roomplan02.jpg" alt="ファミリープラン"></a></li>
+        <li><a href="#"><img src="img/roomplan03.jpg" alt="ビジネスプラン"></a></li>
+      </ul>
+    </section>
+    </section>
   </div>
-
-  <section>
-    <h3>特別な空間で、上質なくつろぎを</h3>
-    <p>カップルやご友人など、様々な用途でご利用いただけます。
-      <br>寝心地に特価して考えられたベッドで、快適な睡眠を保証します。</p>
-  </section>
-
-  <table>
-    <tr>
-      <th></th>
-      <td>面積</td>
-      <td>料金</td>
-    </tr>
-    <tr>
-      <th>スタンダード</th>
-      <td>16m&sup2;</td>
-      <td>¥24,800</td>
-    </tr>
-    <tr>
-      <th>スーベリア</th>
-      <td>20m&sup2;</td>
-      <td>¥29,800</td>
-    </tr>
-  </table>
-
-  <section>
-    <h3>サービス</h3>
-    <ul>
-      <li>高速ワイヤレスインターネット</li>
-      <li>ランドリー</li>
-      <li>マッサージ</li>
-      <li>ビデオ・オン・デマンド</li>
-    </ul>
-  </section>
-
-  <section>
-    <h3>客室設備</h3>
-    <ul>
-      <li>シャワートイレ</li>
-      <li>冷蔵庫</li>
-      <li>ドライヤー</li>
-      <li>ズボンプレッサー</li>
-      <li>液晶テレビ</li>
-    </ul>
-  </section>
-
-  <section>
-    <h3>アメニティ</h3>
-    <ul>
-      <li>ナイトウェア</li>
-      <li>バスローブ</li>
-      <li>スリッパ</li>
-      <li>シャンプー</li>
-      <li>コンディショナー</li>
-      <li>ボディシャンプー</li>
-      <li>バスソルト</li>
-      <li>化粧水</li>
-      <li>ボディタオル</li>
-      <li>ヘアブラシ</li>
-      <li>シャワーキャップ</li>
-      <li>ひげ剃り</li>
-      <li>歯ブラシ</li>
-      <li>コットン</li>
-    </ul>
-  </section>
-
-  <section>
-    <h3>おすすめプラン</h3>
-    <ul>
-      <li><a href="#"><img src="img/roomplan01.jpg" alt="記念日プラン"></a></li>
-      <li><a href="#"><img src="img/roomplan02.jpg" alt="ファミリープラン"></a></li>
-      <li><a href="#"><img src="img/roomplan03.jpg" alt="ビジネスプラン"></a></li>
-    </ul>
-  </section>
-  </section>
-</div>
-
+  </div>
 <div>
 <hr class="three-line">
 <hr class="three-line">
 <hr class="three-line">
+
 </div>
 <!-- 三本ライン -->
 

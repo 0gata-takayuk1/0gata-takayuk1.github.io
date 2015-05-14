@@ -1,3 +1,11 @@
+.sidebar{
+  width: 210px;
+  float: left;
+
+}
+
+
+
 .room-mainvisual{
 	width: 1280px;
 	margin: 0 auto;
@@ -8,11 +16,10 @@
   width: 210px;
   height: 230px;
   background-color: #20625f;
-  float: left;
 }
 
 .reserve-middle_room{
-  margin-top: 12px;
+  padding-top: 12px;
   margin-bottom: 14px;
 }
 
@@ -101,7 +108,7 @@ select {
 #reserveform_room img{
 	margin: 8px 0px 0px 16px;
 }
-/* 区切りの画像 */
+    /* 区切りの画像 */
 
 
 #reserveform_room .confirm{
@@ -119,3 +126,153 @@ select {
 }
 
 /* 宿泊予約 */
+
+
+#stay_nav{
+  color: #666;
+
+}
+
+#stay_nav li{
+  width: 210px;
+  clear: both;
+  text-align: left;
+  line-height: 40px;
+  border-bottom: 1px solid #eccfae;
+  padding: 0px;
+}
+
+#stay_nav a{
+  text-decolation: none;
+  color: #666;
+}
+
+
+
+.room_contents{
+  width: 768px;
+  float: right;
+  overflow: hidden;
+}
+
+.room_contents h2{
+  font-size: 24px;
+  color: #333;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.room_contents h2 span{
+  font-size: 11px;
+  color: #999;
+}
+
+.room_line{
+  height: 1px;
+	border-bottom:1px solid #408c89;
+	border-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.room_pic{
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.big_pic{
+  width: 496px;
+  float: left;
+}
+
+.small_pic{
+  width: 272px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.small_pic img{
+  width: 120px;
+  height: 72px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  display: block;
+  float: left;
+}
+
+.small_pic img:last-child{
+  margin-bottom: 0px;
+}
+
+.room_copy{
+  float: left;
+  width: 496px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+table{
+  float: right;
+  height: 120px;
+  width: 272px;
+}
+
+.room_contents h3{
+  margin: 24px 0px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.room_contents h4{
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.room_sub1{
+  width: 240px;
+  height: 200px;
+  float: left;
+  margin-right: 16px;
+}
+
+.room_contents section ul{
+  margin-top: 16px;
+  font-size: 12px;
+  line-height:1.5;
+}
+
+.room_sub2{
+  width: 256px;
+  height: 200px;
+  float: right;
+  overflow: hidden;
+}
+
+.room_sub2 ul{
+  float: left;
+}
+
+.room_plan{
+  clear: both;
+}
+
+.room_plan ul{
+  overflow: hidden;
+}
+
+.room_plan li{
+  width: 234px;
+  height: 265px;
+  margin-left: 30px;
+  float: left;
+  display: block;
+}
+
+
+.room_plan li:first-child{
+  margin-left: 0px;
+}
