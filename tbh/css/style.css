@@ -100,7 +100,9 @@ header .gnav{
 
 .gnav .line{
 	width: 1px;
-	margin-top: 4px;
+	height: 20px;
+	background: url(../img/line01.png) 0 no-repeat;
+	margin-top: 6px;
 }
 
 .gnav ul li a{
@@ -196,7 +198,11 @@ select {
 	letter-spacing: 4px;
 }
 
-#reserveform img{
+#reserveform .divide{
+	display: inline;
+	width: 3px;
+	height: 40px;
+	background: url(../img/divide.jpg) no-repeat;
 	float: left;
 	margin: 8px 18px;
 }
@@ -206,9 +212,9 @@ select {
 	border:solid 0px #ccc;
 	padding:6px 20px;
 	font-family:Helvetica, Arial, sans-serif;
-	font-size:11px;
+	font-size:10px;
 	text-transform:uppercase;
-	background:  url(../img/triangle_w.png) no-repeat 0px 12px, rgba(0,0,0,0);
+	background:  url(../img/triangle_w.png) no-repeat 0px 10px, rgba(0,0,0,0);
 	color:#fff;
 	cursor:pointer;
 	float: left;
@@ -267,6 +273,7 @@ select {
 	float: left;
 	margin-left: 16px;
 }
+
 
 #container-plan ul li:first-child{
 	margin-left: 0px ;
@@ -367,6 +374,14 @@ article p{
 	color: #666;
 	text-decoration: none;
 }
+
+.line2{
+	width: 1px;
+	height: 12px;
+	padding-top: 8px;
+	background: url(../img/line02.png) 0 no-repeat;
+}
+
 
 /* 新着情報の設定 */
 
