@@ -1,11 +1,6 @@
 .room-mainvisual{
-  position: relative;
   height: 262px;
   background-color: #000;
-}
-
-.mainimage-center{
-  position: absolute;
 }
 
 .mainimage-center div{
